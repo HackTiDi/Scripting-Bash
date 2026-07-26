@@ -29,4 +29,13 @@ chmod +x hostDiscovery.sh
 ./hostDiscovery.sh 192.168.100.
 ```
 
+### Subdomain
 
+Una herramienta en bash que facilita el uso de GoBuster para el descubrimiento de subdominios de manera activa.
+
+Example (El unico parametro obligatorio es '-u', cada uno tiene una configuracion Default):
+
+```bash
+chmod +x subdomain.sh
+./subdomain -u https://target.com -w **Wordlists*** -t 'threads' -f 'filters'
+```
