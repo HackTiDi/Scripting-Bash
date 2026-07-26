@@ -38,6 +38,6 @@ Una herramienta en bash que facilita el uso de GoBuster para el descubrimiento d
 Example (El unico parametro obligatorio es '-u', cada uno tiene una configuracion Default):
 
 ```bash
-chmod +x subdomain.sh
+sudo apt install gobuster && chmod +x subdomain.sh
 ./subdomain -u https://target.com -w **Wordlists*** -t 'threads' -f 'filters'
 ```
