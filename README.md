@@ -39,5 +39,5 @@ Example (El unico parametro obligatorio es '-u', cada uno tiene una configuracio
 
 ```bash
 sudo apt install gobuster && chmod +x subdomain.sh
-./subdomain -u https://target.com -w **Wordlists*** -t 'threads' -f 'filters'
+./subdomain -u target.com -w **Wordlists*** -t 'threads' -f 'filters'
 ```
